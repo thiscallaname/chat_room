@@ -35,13 +35,7 @@ send_message(Message, []) ->
     io:format("~p~n", [Message]),
     done.
 % --------------------------------------------------------------------
-% Function: init/1
-% Description: Initiates the server
-% Returns: {ok, State}          |
-%          {ok, State, Timeout} |
-%          ignore               |
-%          {stop, Reason}
-% --------------------------------------------------------------------
+
 init([]) ->
     {ok, []}.
 
