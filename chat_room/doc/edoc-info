@@ -1,3 +1,0 @@
-%% encoding: UTF-8
-{application,chat_room}.
-{modules,[listen,m,server,simpleClient,user_table]}.

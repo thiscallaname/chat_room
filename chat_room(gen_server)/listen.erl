@@ -19,7 +19,7 @@
  	m:start(),
  	Pid ! {listen, Listen}.
 
-%------------------------
+%----------------
 init([Listen]) ->
     {ok, Listen}.
 
