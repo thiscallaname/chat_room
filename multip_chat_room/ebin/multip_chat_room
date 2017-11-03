@@ -1,0 +1,6 @@
+{application, multip_chat_romm,
+[{description, "a multip_chatroom for client use"},
+{vsn, "0.1.0"},
+{modules,[client, server,listen]},
+{mod, {listen,[]}}
+]}.
